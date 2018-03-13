@@ -13,11 +13,17 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Файлы исходного кода\Units">
+    <Filter Include="Файлы исходного кода\Units in anthill">
       <UniqueIdentifier>{d16059a2-cd77-4b07-a3d1-5e18fe273963}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Заголовочные файлы\Units">
+    <Filter Include="Заголовочные файлы\Units in anthill">
       <UniqueIdentifier>{e902bd76-ec4b-4320-88c8-8b465f3005f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Units in anthill\Ants">
+      <UniqueIdentifier>{54642582-165b-49a1-8614-a31a024befd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Units in anthill\Ants">
+      <UniqueIdentifier>{4a4b98a4-16d6-4f24-b293-d681015ed376}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -31,22 +37,31 @@
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
     <ClInclude Include="Larva.h">
-      <Filter>Заголовочные файлы\Units</Filter>
+      <Filter>Заголовочные файлы\Units in anthill</Filter>
     </ClInclude>
     <ClInclude Include="Uterus.h">
-      <Filter>Заголовочные файлы\Units</Filter>
-    </ClInclude>
-    <ClInclude Include="Solider.h">
-      <Filter>Заголовочные файлы\Units</Filter>
-    </ClInclude>
-    <ClInclude Include="Policeman.h">
-      <Filter>Заголовочные файлы\Units</Filter>
-    </ClInclude>
-    <ClInclude Include="Worker.h">
-      <Filter>Заголовочные файлы\Units</Filter>
+      <Filter>Заголовочные файлы\Units in anthill</Filter>
     </ClInclude>
     <ClInclude Include="Pest.h">
-      <Filter>Заголовочные файлы\Units</Filter>
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Policeman.h">
+      <Filter>Заголовочные файлы\Units in anthill\Ants</Filter>
+    </ClInclude>
+    <ClInclude Include="Worker.h">
+      <Filter>Заголовочные файлы\Units in anthill\Ants</Filter>
+    </ClInclude>
+    <ClInclude Include="Solider.h">
+      <Filter>Заголовочные файлы\Units in anthill\Ants</Filter>
+    </ClInclude>
+    <ClInclude Include="Anthome.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Ant.h">
+      <Filter>Заголовочные файлы\Units in anthill\Ants</Filter>
+    </ClInclude>
+    <ClInclude Include="Context.h">
+      <Filter>Заголовочные файлы</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -57,22 +72,31 @@
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
     <ClCompile Include="Larva.cpp">
-      <Filter>Файлы исходного кода\Units</Filter>
+      <Filter>Файлы исходного кода\Units in anthill</Filter>
     </ClCompile>
     <ClCompile Include="Uterus.cpp">
-      <Filter>Файлы исходного кода\Units</Filter>
-    </ClCompile>
-    <ClCompile Include="Solider.cpp">
-      <Filter>Файлы исходного кода\Units</Filter>
-    </ClCompile>
-    <ClCompile Include="Policeman.cpp">
-      <Filter>Файлы исходного кода\Units</Filter>
-    </ClCompile>
-    <ClCompile Include="Worker.cpp">
-      <Filter>Файлы исходного кода\Units</Filter>
+      <Filter>Файлы исходного кода\Units in anthill</Filter>
     </ClCompile>
     <ClCompile Include="Pest.cpp">
-      <Filter>Файлы исходного кода\Units</Filter>
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Policeman.cpp">
+      <Filter>Файлы исходного кода\Units in anthill\Ants</Filter>
+    </ClCompile>
+    <ClCompile Include="Solider.cpp">
+      <Filter>Файлы исходного кода\Units in anthill\Ants</Filter>
+    </ClCompile>
+    <ClCompile Include="Worker.cpp">
+      <Filter>Файлы исходного кода\Units in anthill\Ants</Filter>
+    </ClCompile>
+    <ClCompile Include="Anthome.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Ant.cpp">
+      <Filter>Файлы исходного кода\Units in anthill\Ants</Filter>
+    </ClCompile>
+    <ClCompile Include="Context.cpp">
+      <Filter>Файлы исходного кода</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

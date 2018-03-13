@@ -10,6 +10,7 @@ private:
 	//кол - во рождаемых личинок
 	int countLarva;
 public:
+	Uterus();
 	Uterus(int, int);
 	void Eat(int *, int *);
 	Larva CreateLarva(int);

@@ -6,7 +6,6 @@ using namespace std;
 
 Larva::Larva()
 {
-	//..
 }
 
 Larva::Larva(int consumeFood)

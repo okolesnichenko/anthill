@@ -1,7 +1,7 @@
 #pragma once
-#include "Larva.h"
+#include "Ant.h"
 class Policeman :
-	public Larva
+	public Ant
 {
 private:
 	//еда и все методы с едой наследуются
@@ -9,8 +9,9 @@ private:
 	double percent;
 public:
 	Policeman(int, double);
+	void Action(int *, Context*);
 	void IncreaseFood(int *, double *);
-	void setPercent(double);
+	void setPercent(double *);
 	double * getPercent();
 	~Policeman();
 };

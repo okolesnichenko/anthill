@@ -1,15 +1,16 @@
 #pragma once
-#include "Larva.h"
+#include "Ant.h"
 class Worker :
-	public Larva
+	public Ant
 {
 private:
 	//кол - во добываемой пищи
 	int mineFood;
 public:
 	Worker(int, int);
+	void Action(int *, Context*);
 	void IncreaseFood(int *, int *);
-	void setMineFood(int);
+	void setMineFood(int *);
 	int * getMineFood();
 	~Worker();
 };

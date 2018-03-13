@@ -3,8 +3,14 @@
 
 Solider::Solider(int consumeFood, int countPest)
 {
-	setFood(&consumeFood);
-	setCountPest(countPest);
+	setConsumeFood(&consumeFood);
+	setCountPest(&countPest);
+}
+
+void Solider::Action(int* consumeFood, Context * context)
+{
+	Eat(consumeFood, context->getBaseFood());
+	KillPest(context->getPests());
 }
 
 void Solider::KillPest(list<Pest>* pests)
@@ -15,9 +21,9 @@ void Solider::KillPest(list<Pest>* pests)
 	}
 }
 
-void Solider::setCountPest(int countPest) 
+void Solider::setCountPest(int * countPest) 
 {
-	this->countPest = countPest;
+	this->countPest = *countPest;
 }
 
 int* Solider::getCountPest()

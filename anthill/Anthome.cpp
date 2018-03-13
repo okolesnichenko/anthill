@@ -53,7 +53,7 @@ void Anthome::LarvasLifeCycle()
 				break;
 			}
 			if ((it != larvas.end()) && (it != larvas.begin()))
-			{
+			{ 
 				larvas.pop_front();
 			}
 		}

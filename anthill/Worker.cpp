@@ -4,8 +4,14 @@
 
 Worker::Worker(int consumeFood, int mineFood)
 {
-	setFood(&consumeFood);
-	setMineFood(mineFood);
+	setConsumeFood(&consumeFood);
+	setMineFood(&mineFood);
+}
+
+void Worker::Action(int* consumeFood, Context * context)
+{
+	Eat(consumeFood, context->getBaseFood());
+	IncreaseFood(context->getMineFood(), context->getBaseFood());
 }
 
 void Worker::IncreaseFood(int * mineFood, int * baseFood)
@@ -13,9 +19,9 @@ void Worker::IncreaseFood(int * mineFood, int * baseFood)
 	*baseFood += *mineFood;
 }
 
-void Worker::setMineFood(int mineFood)
+void Worker::setMineFood(int * mineFood)
 {
-	this->mineFood = mineFood;
+	this->mineFood = *mineFood;
 }
 
 int * Worker::getMineFood() 

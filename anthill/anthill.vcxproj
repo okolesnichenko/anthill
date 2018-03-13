@@ -145,6 +145,9 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Ant.h" />
+    <ClInclude Include="Anthome.h" />
+    <ClInclude Include="Context.h" />
     <ClInclude Include="Larva.h" />
     <ClInclude Include="Pest.h" />
     <ClInclude Include="Policeman.h" />
@@ -155,7 +158,10 @@
     <ClInclude Include="Worker.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Ant.cpp" />
     <ClCompile Include="anthill.cpp" />
+    <ClCompile Include="Anthome.cpp" />
+    <ClCompile Include="Context.cpp" />
     <ClCompile Include="Larva.cpp" />
     <ClCompile Include="Pest.cpp" />
     <ClCompile Include="Policeman.cpp" />

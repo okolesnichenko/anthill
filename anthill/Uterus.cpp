@@ -4,6 +4,12 @@
 #include "Larva.h"
 using namespace std;
 
+
+Uterus::Uterus()
+{
+
+}
+
 Uterus::Uterus(int consumeFood, int countLarva)
 {
 	setUterusFood(&consumeFood);
