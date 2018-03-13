@@ -9,7 +9,6 @@ class Solider :
 	public Ant
 {
 private:
-	//кол - во уничтожаемых вредителей
 	int countPest;
 public:
 	Solider(int, int);

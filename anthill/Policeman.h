@@ -4,8 +4,6 @@ class Policeman :
 	public Ant
 {
 private:
-	//еда и все методы с едой наследуются
-	//процент, на который увеличивается запас пищи
 	double percent;
 public:
 	Policeman(int, double);

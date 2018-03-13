@@ -4,7 +4,6 @@ class Worker :
 	public Ant
 {
 private:
-	//кол - во добываемой пищи
 	int mineFood;
 public:
 	Worker(int, int);

@@ -2,7 +2,6 @@
 class Larva
 {
 protected:
-	//кол - во потребляемой пищи
 	int consumeFood;
 public:
 	Larva();

@@ -2,7 +2,6 @@
 class Pest
 {
 private:
-	//ך - גמ סתוהאולמי והû
 	int consumeFood;
 public:
 	Pest(int);

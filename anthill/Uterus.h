@@ -5,9 +5,7 @@
 class Uterus
 {
 private:
-	//кол - во потребляемой пищи
 	int consumeFood;
-	//кол - во рождаемых личинок
 	int countLarva;
 public:
 	Uterus();
